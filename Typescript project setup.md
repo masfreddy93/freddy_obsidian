@@ -19,7 +19,7 @@
 
 ##### Aggiungere watch al compilatore (qualora non si sia intallato typescript globalmente)
 9. All'interno del file 'package.json', dentro la voce `"scripts": { }` inserire la seguente riga di codice: `"tsc:w": "tsc -w"` 
-10. Creare file 'config.json' con il seguente codice all'interno
+10. Creare file 'tsconfig.json' con il seguente codice all'interno
 ```
 {
 	"compilerOptions": {
@@ -35,3 +35,4 @@ Con questo codice si dice al compilatore: "Vai a prendere tutti i file .ts all'i
 
 12. Lanciare comando da terminale `npm run tsc:w`
 13. D'ora in poi ogni cambiamento sul file .ts verrà compilato e riconvertito in .js in maniera AUTOMATICA al salvamento del file .ts
+	N.B. di default il compilatore convertirà il file .ts in ECMA5 e dunque una variabile 'let' nel file .ts sarà convertita in una variabile di tipo 'var' nel file .js
