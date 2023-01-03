@@ -36,3 +36,6 @@ Con questo codice si dice al compilatore: "Vai a prendere tutti i file .ts all'i
 12. Lanciare comando da terminale `npm run tsc:w`
 13. D'ora in poi ogni cambiamento sul file .ts verrà compilato e riconvertito in .js in maniera AUTOMATICA al salvamento del file .ts
 	N.B. di default il compilatore convertirà il file .ts in ECMA5 e dunque una variabile 'let' nel file .ts sarà convertita in una variabile di tipo 'var' nel file .js
+
+
+fonte: https://www.youtube.com/watch?v=9CNppuTuvQs&list=PLYrQFCVhfFIt4k21sOv8Ll29ZxLQTSmR1&index=3
