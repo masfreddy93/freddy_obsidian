@@ -1,3 +1,5 @@
+## Typescript project setup
+
 1. Creare folder del progetto (es. ts-intro)
 2. Aprire folder con vsc (o altro editor) e lanciare da terminale il comando  `npm init`
 3. Rispondere a domande del terminale per inserire i dati del progetto (es. nome progetto, autore, git, versione ...)
