@@ -50,3 +50,13 @@ fonte: https://www.youtube.com/watch?v=9CNppuTuvQs&list=PLYrQFCVhfFIt4k21sOv8Ll2
 fonte: https://www.youtube.com/watch?v=2QKCw7vz40g&list=PLYrQFCVhfFIt4k21sOv8Ll29ZxLQTSmR1&index=6
 
 
+
+### CONFIGURAZIONE: COMANDI INTERESSANTI
+--locale : il compilatore manderà messaggi in italiano
+--outFile : il codice dei file .ts verrà compilato in un SINGOLO file
+
+
+Fonti: - https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+		 - https://www.typescriptlang.org/docs/handbook/compiler-options.html
+
+
