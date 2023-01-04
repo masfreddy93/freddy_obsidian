@@ -39,3 +39,14 @@ Con questo codice si dice al compilatore: "Vai a prendere tutti i file .ts all'i
 
 
 fonte: https://www.youtube.com/watch?v=9CNppuTuvQs&list=PLYrQFCVhfFIt4k21sOv8Ll29ZxLQTSmR1&index=3
+
+
+14. Se si vuole convertire il file .ts in codice ES6 occorre aggiungere il seguente script all'interno del file 'tsconfig.json' sotto la voce 'compilerOptions' ---> `"target": "ES6"`. Vedi screen
+![[Screenshot 2023-01-04 alle 09.20.42.png]]
+		N.B. In caso di importazione di moduli/file sarà necessario specificare il formato di essi (altrimenti non verrà inclusa l'estensione nei relativi file .js dopo la conversione). Vedi screen![[Screenshot 2023-01-04 alle 09.25.01.png]]
+		Sarebbe meglio imparare ad usare le webpack.
+		Si può anche importare nella maniera vecchia ovvero con il 'require'.
+
+fonte: https://www.youtube.com/watch?v=2QKCw7vz40g&list=PLYrQFCVhfFIt4k21sOv8Ll29ZxLQTSmR1&index=6
+
+
