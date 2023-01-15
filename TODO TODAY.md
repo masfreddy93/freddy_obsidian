@@ -1,0 +1,8 @@
+- capire git flow, rebase, PR
+- rivedere dbimprese
+- form validator 
+- documentazione CODI
+- documentazione ANGULAR - MATERIAL - CDK
+- sistemare lavoro fino ad oggi (flex, chips, ordine..)
+- sistemare appunti - obsidian - password varie
+- preparare zaino da lasciare a lavoro
